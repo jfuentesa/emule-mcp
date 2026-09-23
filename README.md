@@ -75,7 +75,7 @@ Register the server in your agent's MCP configuration. Example for
     "emule": {
       "type": "local",
       "command": [
-        "D:/mis documentos/varios/proyectos/emule-mcp/.venv/Scripts/python.exe",
+        "<path-to-project>/.venv/Scripts/python.exe",
         "-m",
         "emule_mcp.server"
       ],
